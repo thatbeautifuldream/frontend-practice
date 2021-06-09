@@ -1,2 +1,2 @@
 # frontend-practice
-A series of porject-THAs from Devsnest Frontend Course.
+A series of THAs (Take Home Assignments) from the Devsnest Frontend Course.
