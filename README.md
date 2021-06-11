@@ -12,4 +12,4 @@ A series of THAs (Take Home Assignments) from the Devsnest Frontend Course.
 
 ## Day 5 : Made a Calculator using HTML, CSS & JavaScript
 
-## Day 6 : Completed the assignment over basic operations on arrays in JavaScript
+## Day 6 :  basic operations on arrays in JavaScript
