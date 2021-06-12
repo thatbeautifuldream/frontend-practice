@@ -39,7 +39,7 @@ Expected Output :
 [] */
 
 var first = function (input) {
-  return input[0];
+  return input[0][0];
 };
 console.log(first([7, 9, 0, -2]));
 console.log(first([], 3));
@@ -63,7 +63,7 @@ for (let i = 0; i < myColor.length; i++) {
   console.log(myColor[i] + ",");
 }
 for (let i = 0; i < myColor.length; i++) {
-  console.log(myColor[i] + "+`");
+  console.log(myColor[i] + "+");
 }
 
 /* Write a JavaScript program to find the most frequent item of an array
