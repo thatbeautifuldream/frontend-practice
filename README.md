@@ -13,3 +13,5 @@ A series of THAs (Take Home Assignments) from the Devsnest Frontend Course.
 ## Day 5 : Made a Calculator using HTML, CSS & JavaScript
 
 ## Day 6 : Basic operations on Arrays in JavaScript
+
+## Day 7 : Upcomming
