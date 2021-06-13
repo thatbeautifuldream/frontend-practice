@@ -18,8 +18,9 @@ console.log(array_Clone([1, 2, 4, 0]));
 console.log(array_Clone([1, 2, [4, 0]]));
 [1, 2, 4, 0]
 [1, 2, [4, 0]] */
+
 var array_Clone = function (input) {
-  return input;
+  return input.slice(0);
 };
 console.log(array_Clone([1, 2, 4, 0]));
 console.log(array_Clone([1, 2, [4, 0]]));
@@ -38,8 +39,11 @@ Expected Output :
 [7, 9, 0, -2]
 [] */
 
-var first = function (input) {
-  return input[0][0];
+var first = function (array, n) {
+  if (array == null) return void 0;
+  if (n == null) return array[0];
+  if (n < 0) return [];
+  return array.slice(0, n);
 };
 console.log(first([7, 9, 0, -2]));
 console.log(first([], 3));
@@ -55,18 +59,28 @@ Expected Output :
 "Red+Green+White+Black"
  */
 
-var myColor = ["Red", "Green", "White", "Black"];
-for (let i = 0; i < myColor.length; i++) {
-  console.log(myColor[i] + ",");
-}
-for (let i = 0; i < myColor.length; i++) {
-  console.log(myColor[i] + ",");
-}
-for (let i = 0; i < myColor.length; i++) {
-  console.log(myColor[i] + "+");
-}
+myColor = ["Red", "Green", "White", "Black"];
+console.log(myColor.toString());
+console.log(myColor.join());
+console.log(myColor.join("+"));
 
 /* Write a JavaScript program to find the most frequent item of an array
 Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 Sample Output : a ( 5 times )
  */
+
+var arr1 = [3, "a", "a", "a", 2, 3, "a", 3, "a", 2, 4, 9, 3];
+var maxCount = 1;
+var count = 0;
+var item;
+for (var i = 0; i < arr1.length; i++) {
+  for (var j = i; j < arr1.length; j++) {
+    if (arr1[i] == arr1[j]) count++;
+    if (maxCount < count) {
+      maxCount = count;
+      item = arr1[i];
+    }
+  }
+  count = 0;
+}
+console.log(item + " ( " + maxCount + " times ) ");
