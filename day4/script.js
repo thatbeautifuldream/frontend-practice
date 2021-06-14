@@ -7,7 +7,9 @@ var clock = setInterval(function time() {
   var hr = date_now.getHours();
   var min = date_now.getMinutes();
   var sec = date_now.getSeconds();
-
+  if (hr > 12) {
+    hr -= 12;
+  }
   if (hr < 10) {
     hr = "0" + hr;
   }
@@ -17,6 +19,7 @@ var clock = setInterval(function time() {
   if (sec < 10) {
     sec = "0" + sec;
   }
+
   hour.textContent = hr;
   minute.textContent = min;
   second.textContent = sec;
