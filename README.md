@@ -14,4 +14,4 @@ A series of THAs (Take Home Assignments) from the Devsnest Frontend Course.
 
 ## Day 6 : [Basic operations on Arrays in JavaScript](https://milindmishra.me/day6/index.html)
 
-## Day 7 : [Comming Soon]()
+## Day 7 : [Basic operations on Objects in JavaScript](https://milindmishra.me/day7/index.html)
