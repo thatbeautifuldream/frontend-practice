@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter";
+  font-size: 22px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  background-color: brown;
+}
