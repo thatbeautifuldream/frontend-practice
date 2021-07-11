@@ -3,7 +3,7 @@ import "./card-style.css";
 
 function CardUI(props) {
   return (
-    <div class="card text-center shadow">
+    <div className="card text-center shadow">
       <div className="overflow">
         <img src={props.imgsrc} alt="card-1" className="card-img-top" />
       </div>
