@@ -4128,7 +4128,7 @@
   "resolved" "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz"
   "version" "1.1.2"
 
-"dependencies@0.0.1":
+"dependencies@^0.0.1":
   "integrity" "sha1-+IIyexi0KELq0/TwhiTdPpnxWyU="
   "resolved" "https://registry.npmjs.org/dependencies/-/dependencies-0.0.1.tgz"
   "version" "0.0.1"
