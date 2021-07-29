@@ -1,4 +1,6 @@
-# [THAs Index](https://thatbeautifuldream.github.io/frontend-practice/)
+![devsnest-banner](https://github.com/thatbeautifuldream/frontend-practice/blob/main/devsnest.png)
+
+# [frontend-practice](https://thatbeautifuldream.github.io/frontend-practice/)
 
 A series of THAs (Take Home Assignments) from the Devsnest Frontend Course.
 
